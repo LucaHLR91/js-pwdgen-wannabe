@@ -3,9 +3,12 @@
 // poi chiedi il suo colore preferito
 // Infine scrivi sulla pagina nomecognomecolorepreferito21
 
-var nome = prompt('la squadra più importante della capitale');
+var nome = prompt('inserisci il tuo nome');
+var cognome = prompt('inserisci il tuo cognnome');
+var colore = prompt('inserisci il tuo colore preferito');
+var numero = prompt('inserisci il tuo numero fortunato');
 
 
-document.getElementById('password_gen').innerHTML = nome;
+document.getElementById('password_gen').innerHTML = nome + cognome + colore + numero;
 
-console.log(nome);
+console.log(nome + cognome + colore + numero);

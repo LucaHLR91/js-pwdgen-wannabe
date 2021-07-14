@@ -6,22 +6,17 @@
 
 .container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
     width: 50%;
     height: 500px;
+    background-color: rgba(0, 0, 30, 0.3);
 }
 
-.container:hover {
-    background-image: url(../img/1200px-AS_Roma_Logo_2017.svg.png);
-    background-color: rgba(0, 0, 0, 0.3);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 
 #password_gen {
-    color: red;
+    color: yellow;
     font-size: 40px;
 }
