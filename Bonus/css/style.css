@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
+    height: 500px;
+}
+
+.container:hover {
+    background-image: url(../img/1200px-AS_Roma_Logo_2017.svg.png);
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#password_gen {
+    color: red;
+    font-size: 40px;
+}
